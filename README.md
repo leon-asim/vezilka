@@ -16,8 +16,6 @@ vrabotuvanje – Employment status
 
 plata – Monthly salary (денари)
 
-klasa – Derived socio-economic class
-
 **Approach**
 
 Rule-based generation of realistic base data
