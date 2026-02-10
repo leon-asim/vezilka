@@ -1,8 +1,8 @@
-Synthetic Macedonian Dataset (synthpop, R)
+****Synthetic Macedonian Dataset (synthpop, R)****
 
 This project generates a synthetic socio-economic dataset in Macedonian using the synthpop package in R.
 
-Variables
+**Variables**
 
 vozrast – Age (18–65)
 
@@ -18,7 +18,7 @@ plata – Monthly salary (денари)
 
 klasa – Derived socio-economic class
 
-Approach
+**Approach**
 
 Rule-based generation of realistic base data
 
@@ -30,7 +30,7 @@ Post-processing to enforce logical consistency
 
 Statistical comparison between original and synthetic data
 
-Why Synthetic Data?
+**Why Synthetic Data?**
 
 Preserves statistical properties
 
@@ -38,6 +38,6 @@ Reduces privacy risks
 
 Safe for experimentation and research
 
-Output
+**Output**
 
 sinteticki_podatoci_mk.csv (UTF-8 encoded)
