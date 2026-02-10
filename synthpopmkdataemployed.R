@@ -24,6 +24,18 @@ plata <- sapply(vrabotuvanje, function(v) {
   else round(rnorm(1, 50000, 12000))
 })
 
+city_multiplier <- c(
+  "Скопје" = 1.2,
+  "Битола" = 1.0,
+  "Тетово" = 0.95,
+  "Прилеп" = 0.9,
+  "Охрид" = 1.05
+)
+
+synthetic_df$plata <- round(
+  synthetic_df$plata * city_multiplier[synthetic_df$grad]
+)
+
 original_data <- data.frame(
   vozrast = vozrast,
   pol = factor(sample(c("Машки", "Женски"), n, replace = TRUE)),
