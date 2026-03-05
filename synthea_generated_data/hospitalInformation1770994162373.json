@@ -1,0 +1,409 @@
+{
+  "resourceType": "Bundle",
+  "type": "batch",
+  "entry": [ {
+    "fullUrl": "urn:uuid:0e99c538-70ee-32aa-a4a8-2e5e7e9d1e13",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "0e99c538-70ee-32aa-a4a8-2e5e7e9d1e13",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 34
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 155
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 45
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 14
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "0e99c538-70ee-32aa-a4a8-2e5e7e9d1e13"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "SOUTHEAST ALASKA REGIONAL HEALTH CONSORTIUM",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9075864230"
+      } ],
+      "address": [ {
+        "line": [ "225 FRONT STREET" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998011244",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|0e99c538-70ee-32aa-a4a8-2e5e7e9d1e13"
+    }
+  }, {
+    "fullUrl": "urn:uuid:2cb3c096-3e63-39a1-b815-e0998dd905e9",
+    "resource": {
+      "resourceType": "Location",
+      "id": "2cb3c096-3e63-39a1-b815-e0998dd905e9",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "2cb3c096-3e63-39a1-b815-e0998dd905e9"
+      } ],
+      "status": "active",
+      "name": "SOUTHEAST ALASKA REGIONAL HEALTH CONSORTIUM",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9075864230"
+      } ],
+      "address": {
+        "line": [ "225 FRONT STREET" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998011244",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -134.4062238,
+        "latitude": 58.299974
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "0e99c538-70ee-32aa-a4a8-2e5e7e9d1e13"
+        },
+        "display": "SOUTHEAST ALASKA REGIONAL HEALTH CONSORTIUM"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|2cb3c096-3e63-39a1-b815-e0998dd905e9"
+    }
+  }, {
+    "fullUrl": "urn:uuid:e336faa6-14ba-3d83-819c-26c837eef43e",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "e336faa6-14ba-3d83-819c-26c837eef43e",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 3
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/bed-count-extension",
+        "valueInteger": 57
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "e336faa6-14ba-3d83-819c-26c837eef43e"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "BARTLETT REGIONAL HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077968900"
+      } ],
+      "address": [ {
+        "line": [ "3260 HOSPITAL DR" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998017808",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|e336faa6-14ba-3d83-819c-26c837eef43e"
+    }
+  }, {
+    "fullUrl": "urn:uuid:f0acbfb1-3b72-381c-817c-5ace1b2c6c53",
+    "resource": {
+      "resourceType": "Location",
+      "id": "f0acbfb1-3b72-381c-817c-5ace1b2c6c53",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "f0acbfb1-3b72-381c-817c-5ace1b2c6c53"
+      } ],
+      "status": "active",
+      "name": "BARTLETT REGIONAL HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077968900"
+      } ],
+      "address": {
+        "line": [ "3260 HOSPITAL DR" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998017808",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -134.46498295128208,
+        "latitude": 58.329258949999996
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "e336faa6-14ba-3d83-819c-26c837eef43e"
+        },
+        "display": "BARTLETT REGIONAL HOSPITAL"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|f0acbfb1-3b72-381c-817c-5ace1b2c6c53"
+    }
+  }, {
+    "fullUrl": "urn:uuid:b824881a-8c1f-3f1f-8fab-d9db61555dd2",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "b824881a-8c1f-3f1f-8fab-d9db61555dd2",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 22
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "b824881a-8c1f-3f1f-8fab-d9db61555dd2"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "BARTLETT REGIONAL HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077968900"
+      } ],
+      "address": [ {
+        "line": [ "3260 HOSPITAL DR" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998017808",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|b824881a-8c1f-3f1f-8fab-d9db61555dd2"
+    }
+  }, {
+    "fullUrl": "urn:uuid:3240ee14-cb20-3517-8472-ca1de0ff6370",
+    "resource": {
+      "resourceType": "Location",
+      "id": "3240ee14-cb20-3517-8472-ca1de0ff6370",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "3240ee14-cb20-3517-8472-ca1de0ff6370"
+      } ],
+      "status": "active",
+      "name": "BARTLETT REGIONAL HOSPITAL",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077968900"
+      } ],
+      "address": {
+        "line": [ "3260 HOSPITAL DR" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998017808",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -134.46498295128208,
+        "latitude": 58.329258949999996
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "b824881a-8c1f-3f1f-8fab-d9db61555dd2"
+        },
+        "display": "BARTLETT REGIONAL HOSPITAL"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|3240ee14-cb20-3517-8472-ca1de0ff6370"
+    }
+  }, {
+    "fullUrl": "urn:uuid:39b65f95-03ae-36f2-9004-e928921b61f3",
+    "resource": {
+      "resourceType": "Organization",
+      "id": "39b65f95-03ae-36f2-9004-e928921b61f3",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization" ]
+      },
+      "extension": [ {
+        "url": "http://synthetichealth.github.io/synthea/utilization-encounters-extension",
+        "valueInteger": 1
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-procedures-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-labs-extension",
+        "valueInteger": 0
+      }, {
+        "url": "http://synthetichealth.github.io/synthea/utilization-prescriptions-extension",
+        "valueInteger": 0
+      } ],
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "39b65f95-03ae-36f2-9004-e928921b61f3"
+      } ],
+      "active": true,
+      "type": [ {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/organization-type",
+          "code": "prov",
+          "display": "Healthcare Provider"
+        } ],
+        "text": "Healthcare Provider"
+      } ],
+      "name": "SOUTHEAST URGENT CARE INCORPORATED",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077904111"
+      } ],
+      "address": [ {
+        "line": [ "8505 OLD DAIRY RD" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998016921",
+        "country": "US"
+      } ]
+    },
+    "request": {
+      "method": "POST",
+      "url": "Organization",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|39b65f95-03ae-36f2-9004-e928921b61f3"
+    }
+  }, {
+    "fullUrl": "urn:uuid:18b87a13-4b5e-30d8-a46a-3915ed16da69",
+    "resource": {
+      "resourceType": "Location",
+      "id": "18b87a13-4b5e-30d8-a46a-3915ed16da69",
+      "meta": {
+        "profile": [ "http://hl7.org/fhir/us/core/StructureDefinition/us-core-location" ]
+      },
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "18b87a13-4b5e-30d8-a46a-3915ed16da69"
+      } ],
+      "status": "active",
+      "name": "SOUTHEAST URGENT CARE INCORPORATED",
+      "telecom": [ {
+        "system": "phone",
+        "value": "9077904111"
+      } ],
+      "address": {
+        "line": [ "8505 OLD DAIRY RD" ],
+        "city": "JUNEAU",
+        "state": "AK",
+        "postalCode": "998016921",
+        "country": "US"
+      },
+      "position": {
+        "longitude": -134.57325961649565,
+        "latitude": 58.362635282951
+      },
+      "managingOrganization": {
+        "identifier": {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "39b65f95-03ae-36f2-9004-e928921b61f3"
+        },
+        "display": "SOUTHEAST URGENT CARE INCORPORATED"
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|18b87a13-4b5e-30d8-a46a-3915ed16da69"
+    }
+  }, {
+    "fullUrl": "urn:uuid:bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+    "resource": {
+      "resourceType": "Location",
+      "id": "bb1ad573-19b8-9cd8-68fb-0e6f684df992",
+      "identifier": [ {
+        "system": "https://github.com/synthetichealth/synthea",
+        "value": "bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+      } ],
+      "status": "active",
+      "description": "Patient's Home",
+      "mode": "kind",
+      "physicalType": {
+        "coding": [ {
+          "system": "http://terminology.hl7.org/CodeSystem/location-physical-type",
+          "code": "ho",
+          "display": "House"
+        } ]
+      }
+    },
+    "request": {
+      "method": "POST",
+      "url": "Location",
+      "ifNoneExist": "identifier=https://github.com/synthetichealth/synthea|bb1ad573-19b8-9cd8-68fb-0e6f684df992"
+    }
+  } ]
+}
